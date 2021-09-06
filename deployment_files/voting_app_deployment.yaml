@@ -18,7 +18,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - name: votingApp
+        - name: voting-app
           image: kodekloud/examplevotingapp_vote:v1
           ports:
             - containerPort: 80   
